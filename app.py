@@ -2,6 +2,9 @@
 from flask import Flask, jsonify
 import pickle
 import nltk
+nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('stopwords')
 import pandas as pd
 import numpy as np
 import re
