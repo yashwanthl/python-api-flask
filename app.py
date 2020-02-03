@@ -20,15 +20,13 @@ def index():
 tasks = [
     {
         'id': 1,
-        'title': u'Buy groceries',
-        'description': u'Milk, Cheese, Pizza, Fruit, Tylenol', 
-        'done': False
+        'title': u'train',
+        'description': u'train the model with email data'
     },
     {
         'id': 2,
-        'title': u'Learn Python',
-        'description': u'Need to find a good Python tutorial on the web', 
-        'done': False
+        'title': u'predict',
+        'description': u'predict given email text if spam or not '
     }
 ]
 
